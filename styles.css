@@ -1,15 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 40px;
     width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        gap: 10px;
+    }
+}
+
 .container img {
     width: 100%;
 }
